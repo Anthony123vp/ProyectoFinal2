@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABORATORIO 6</title>
+    <link rel="stylesheet" href="Mensaje.css">
+    <script type="text/javascript" charset="utf-8" src="Mensaje.js"></script>
+</head>
+<header>
+    <a href="index.html" class="logo">
+        <img src="img/logo2.png" alt="logo">
+    </a>
+    <nav>
+        <a href="ubicacion.html" class="nav-link">Ubicacion</a>
+        <a href="matricula.html" class="nav-link">Matricula</a>
+        <a href="contacto.html" class="nav-link">Contacto</a>
+        <a href="Calculadora.html" class="nav-link">Calculadora</a>
+    </nav>
+</header>
+<body>             
+    <h2 align="center">INFORMACIÓN DE LA PERSONA</h2> 
+    <hr>
+</body> 
+<body><!--cuerpo el contenido-->
+    <form action="">
+    <div class="div1">
+        <table align="center">
+            <tr>
+                <td><label for="">Nombre:</label></td>    
+                <td><input type="text" size="50px" id="nombre" placeholder="Ingrese su nombre" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Primer Apellido:</label></td>    
+                <td><input type="text" size="50px" id="papellido" placeholder="Ingrese su Apellido" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Segundo Apellido:</label></td>    
+                <td><input type="text" size="50px" id="sapellido" placeholder="Ingrese su Apellido" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Correo Electronico:</label></td>
+                <td><input type="email" size="50px" id="celectronico" placeholder="Ingrese su Correo Electronico"></td>
+            </tr>
+            <tr>
+                <td><p>Mensaje</p></td>
+                <td><textarea class="texarea" name="" id="textarea" cols="50" rows="10" required></textarea></td>
+            </tr>
+            <tr>
+                <td><input  class="button" type="submit" onclick="Enviar()" href="index.html"></td>
+            </tr>
+        </table>
+    </div> 
+    </form>
+</body>
+</html>
+    

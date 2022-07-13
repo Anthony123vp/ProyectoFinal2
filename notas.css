@@ -1,0 +1,86 @@
+body{
+    background-image: url(img/fondo3.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgba(255, 255, 255, 0.975);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+.titulo{
+    background-color: #24303c;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:white;
+    box-shadow: 15px 24px 37px #000;
+    text-align: center;
+}
+.x{
+    background-color: #24303c;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:white;
+    box-shadow: 15px 24px 37px #000;
+    text-align: center;
+}
+.container{
+    background-color: #304356;
+    width: 760px;
+    padding-bottom: 100px;
+    padding-top: 5px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:white;
+    font-size: 25px;
+    box-shadow: 15px 24px 37px #000;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}

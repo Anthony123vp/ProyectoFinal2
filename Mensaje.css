@@ -1,0 +1,86 @@
+body{
+    background-image: url(img/fondo3.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgba(255, 255, 255, 0.975);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+.button{
+    margin-left: 160%;
+}
+.div1{
+    margin-left:20%;
+    margin-right:20%;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
+    background-color: #24303c;
+    width: 950px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:white;
+    box-shadow: 7px 13px 37px #000;
+}
+h2{
+    margin-left:20%;
+    margin-right:20%;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    letter-spacing: 10px;
+    text-shadow: 0px 0px 5px black;
+    background-color: #24303c;
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:rgb(255, 255, 255);
+    box-shadow: 7px 13px 37px #000;
+}

@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgba(255, 255, 255, 0.975);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/fondo3.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+}
+
+section{
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+    padding: 35px;
+}
+
+.lista1{
+    background-color: rgb(6, 148, 153);
+    outline-style: dashed;
+}
+
+.lista2{
+    background-color: cadetblue ;
+    outline-style: dashed;
+}
+
+.lista3{
+    background-color: rgb(4, 99, 102);
+    outline-style: dashed;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="notas.css">
+	<link rel="shortcut icon" href="img/logo-inicial.png" type="image/x-icon">
+</head>
+<header>
+    <a href="index.html" class="logo">
+        <img src="img/logo2.png" alt="logo">
+    </a>
+    <nav>
+        <a href="ubicacion.html" class="nav-link">Ubicacion</a>
+        <a href="matricula.html" class="nav-link">Matricula</a>
+        <a href="contacto.html" class="nav-link">Contacto</a>
+        <a href="Calculadora.html" class="nav-link">Calculadora</a>
+    </nav>
+</header>
+<body>
+	<div class="container">
+		<h1>PROMEDIO DE NOTAS</h1>
+		<div class="Cuadro">
+			<div class="x">
+				<p>EVALUACION 1: <input  type="text" id="n1"></p>
+				<p>EVALUACION 2: <input  type="text" id="n2"></p>
+				<p>EVALUACION 3: <input type="text" id="n3"></p>
+			</div>
+			<div class="x">
+				<p>TAREA 1: <input type="text" id="n4"></p>
+				<p>TAREA 2: <input type="text" id="n5"></p>
+				<p>TAREA 3: <input type="text" id="n6"></p>
+				<p><input type="button" onclick="CalcularPromedio()" value="Calcular"></p>	
+			</div>
+		
+	</div>
+</body>
+
+<script>
+	function CalcularPromedio(){
+
+	var v1 = document.getElementById("n1").value;
+
+	var v2 = document.getElementById("n2").value;
+
+	var v3 = document.getElementById("n3").value;
+
+	var v4 = document.getElementById("n4").value;
+
+	var v5 = document.getElementById("n5").value;
+
+	var v6 = document.getElementById("n6").value;
+
+	var pro =(parseFloat(v1)+parseFloat(v2)+parseFloat(v3)+parseFloat(v4)+parseFloat(v5)+parseFloat(v6))/6;	
+	if (pro>10)
+	{
+		alert (`RESULTADOS:\nPROMEDIO: ${pro}\nAPRUEBA`)
+	}
+	else{
+        alert (`RESULTADOS:\nPROMEDIO: ${pro}\nDESAPRUEBA`)
+	}
+
+}
+
+</script>
+</html>

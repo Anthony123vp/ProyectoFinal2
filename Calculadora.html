@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="img/logo-inicial.png" type="image/x-icon">
+    <link rel="stylesheet" href="Calculadora.css">
+</head>
+<header>
+    <a href="index.html" class="logo">
+        <img src="img/logo2.png" alt="logo">
+    </a>
+    <nav>
+        <a href="ubicacion.html" class="nav-link">Ubicacion</a>
+        <a href="matricula.html" class="nav-link">Matricula</a>
+        <a href="contacto.html" class="nav-link">Contacto</a>
+        <a href="notas.html" class="nav-link">Notas</a>
+    </nav>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="TITULO">
+            <h1 style="text-align:center;">CALCULADORA<h1>
+        </div>
+    </div>
+<body>
+    <script type="text/javascript" charset="utf-8" src="Calculadora.js"></script>
+    <form action="" id="miformulario">
+        <div class="cuadro">
+            <table>
+                <div class="mesa2">
+                    <div class="num1">
+                        <label class="x">Numero 1</label>
+                        <input type="text" name="valor1" id="valor1" value=""  placeholder="Escribe un Numero" autofocus="" style="font-size: 23px">
+                    </div>
+                    <div class="num2">
+                        <label class="y">Numero 2</label>
+                        <input type="text" name="valor2" id="valor2" value="" placeholder="Escribe un Numero" style="font-size: 23px">
+                    </div>
+                    <tr>
+                        <td class="botons"><button type="button" class="uno" onclick="Sumar();" style="font-size: 24px" >Sumar</button></td>
+                        <td class="botonr"><button type="button" class="dos" onclick="Restar();" style="font-size: 24px">Restar</button></td>
+                        <td class="botonm"><button type="button" class="tres" onclick="Multiplicar();" style="font-size: 24px">Multiplicar</button></td>
+                        <td class="botond"><button type="button" class="cuatro" onclick="Dividir();" style="font-size: 24px">Dividir</button></td>
+                    </tr>
+                    <br />
+                    <br />
+                </div>
+            </table>
+        </div>
+        <br />
+        <hr style="border: 4px solid black;">
+        <hr style="border: 4px solid black;" width="1300px">
+        <div class="principal">
+            <div class="encabezado1">
+            </div>
+            <div class="contenido">
+                    <div class="menu">
+                    <img src="img/INSIGNIA.png" alt="image" height="550px" width="280px">   
+            </div>
+            <div class="encabezado2">
+                <h1 align="center">LAS OPERACIONES MATEMATICAS</h1>
+            </div>
+            <div class="pagina">
+                <h1 class="Micont">A Y B</h1>
+                <div>
+                    <p><strong style="font-size:30px">Sumar: </strong> A+B=C</p>
+                    <p><strong style="font-size:30px">Restar: </strong> A-B=C</p>
+                    <p><strong style="font-size:30px">Multiplicar: </strong> A*B=C</p>
+                    <p><strong style="font-size:30px">Dividir: </strong> A/B=C</p>
+                </div>
+            </div>
+            </div>              
+            <div class="piepagina">
+                <h1 class=>
+                    © ¡Estudia con nosotros desde cualquier parte del Perú!
+                </h1>
+                <p class="piedepag">
+                    Correo: info@colegioscruzsaco.edu.pe
+                </p>
+            </div>
+        </div>
+</body>

@@ -1,0 +1,241 @@
+body{
+        background-image: url(img/fondo3.jpg);
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+}
+header{
+        display: flex;
+        min-height: 70px;
+        background-color: rgba(255, 255, 255, 0.975);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img{
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    nav a{
+        font-weight: 600;
+        padding-right: 10px;
+        color: black;
+        text-decoration: none
+    }
+    
+    nav a:hover{
+        color: rgb(0, 0, 0);
+    }
+    
+    @media (max-width:700px){
+        header{
+            flex-direction: column;
+        }
+    
+        nav{
+            padding: 10px 0px;
+        }
+    }
+.TITULO{
+        background-color: #304356;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 180px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:white;
+    box-shadow: 15px 24px 37px #000;
+    text-align: center;
+}
+.cuadro{
+        background-color: #304356;
+        width: 700px;
+        padding: 10px;
+        margin: auto;
+        margin-top: 45px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color:white;
+        box-shadow: 15px 24px 37px #000;
+        text-align: center;  
+}
+.num1{
+        padding-left: 15%;
+        padding-bottom: 2%;
+}
+.x{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium';
+}
+#valor1{
+        margin-left: 10%;
+        padding-right: 20%;
+        padding-top: 1%;
+        width: 200px;
+}
+.num2{
+        padding-left: 15%;
+}
+.y{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium';
+}
+.uno{
+        margin-left: 1cm;
+        padding: 1%;
+        width: 80%;
+}
+.dos{
+        margin-left: 2cm;
+        padding: 4%;
+        padding-right: 12%;
+        text-align: center;
+}
+.tres{
+        margin-left: 2cm;
+        padding: 3%;
+}
+.cuatro{
+        margin-left: 2cm;
+        padding: 4%;
+}
+#valor2{
+        margin-left: 10%;
+        padding-right: 20%;
+        padding-top: 1%;
+        width: 200px;
+
+}
+.principal{
+        width: 95%;
+        height: 870px; 
+        margin: 20px 20px 20px 20px ;
+        background-color: #304356;
+        padding-top: 5px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color:white;
+        font-size: 25px;
+        box-shadow: 15px 24px 37px #000;
+        text-align: center;
+}
+
+.encabezado1{
+        color:white;
+        text-align: center;
+    box-shadow: 15px 24px 37px #000;
+        width: 96%;
+        height: 100px;
+        background-color: D0FA58;
+        margin: 20px 20px 20px 20px ;
+        box-shadow: 15px 24px 37px #000;
+}
+
+.encabezado2{
+        width: 70%;
+        height: 100px;
+        float: right;
+        background-color: D0FA58;
+        margin: 20px 20px 20px 20px ;
+        box-shadow: 15px 24px 37px #000;
+}
+
+.contenido{
+    width: 98%;
+    height: 600px;
+    background: -webkit-linear-gradient(top, rgb(2, 112, 77), rgb(3, 175, 175));
+    margin: 20px 20px 20px 20px ;
+    box-shadow: 15px 24px 37px #000;
+}
+
+.menu{
+        width: 20%;
+        height: 550px;
+        background-color: D0FA58;
+        margin: 20px 20px 20px 20px ;
+        float: left;
+        box-shadow: 15px 24px 37px #000;
+        text-align:left;
+}
+
+.pagina{
+        width: 70%;
+        height: 400px;
+        background-color: D0FA58;
+        margin: 20px 20px 20px 20px ;
+        float: right;
+        box-shadow: 15px 24px 37px #000;
+        text-align:center;
+}
+
+.piepagina{
+        width: 96%;
+        height: 100px;
+        background-color: D0FA58;
+        margin: 20px 20px 20px 20px ;
+        border-color: black;
+        border:2px;
+        box-shadow: 15px 24px 37px #000;
+        font-family:Arial;
+        font-size: 10px;
+}
+.SumaDef{
+    font-family: 'sans-serif';
+}
+p{
+        font-size: 30px;
+}
+.piedepag{
+        font-size: 20px;
+        margin-top: 1px;
+}
+.titulopie{
+        font-size: 40px;
+
+}
+footer{
+        background: #414141;
+        padding: 0px 0 0px 0;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .contenedor-footer{
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 00px;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .content-foo{
+        text-align: center;
+    }
+    
+    .content-foo h4{
+        color: #fff;
+        border-bottom: 3px solid #000000;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .content-foo p{
+        color: #ccc;
+    }
+    
+    .titulo-final{
+        text-align: center;
+        font-size: 24px;
+        margin: 20px 0 0 0;
+        color: #9e9797;
+    }
